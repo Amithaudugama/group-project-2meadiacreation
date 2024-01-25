@@ -1,0 +1,279 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 120px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+
+}
+.carousel-caption p{
+   width: 60%;
+   margin: auto;
+   font-size: 18px;
+   text-align: center;
+
+
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(34, 33, 33, 0.7);
+    z-index: 1;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 15px 15px 14px rgb(0,0,0,0.15);
+}
+.navbar .nav .navbar-nav a{
+    color: #0e0d0e!important;
+}
+
+.topdonation{
+   height: 10px;
+}
+.var{
+    padding: 5px;
+    margin-left: 10px;
+}
+.nav-item{
+    float: left;
+    font-size: 15px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-item a:hover{
+    border-bottom: 3px solid #1CABE5;
+  
+  
+ }
+.text-primary{
+    color: #FF0000!important;
+}
+.btn-info{
+    color: #1CABE5!important;
+}
+
+.btn-infor:hover{
+    color:red ;
+}
+
+.text-white{
+    background-color: white;
+}
+.nav-link:active a{
+    color: #1CABE5!important;
+}
+.col {
+    float: left;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.nav a{
+    transition: 0.5s all ease;
+}
+.wrapper-grid{
+  
+   display: grid;
+   grid-template-columns:repeat(4, 1fr) ;
+   align-items: center;
+}
+.color{
+background-color: bisque;
+} 
+.Product .card-body{
+    font-size: 50px;
+
+}
+.team .card-body{
+    font-size: 18px;
+}
+.team .card{
+    box-shadow: 15px 15px 14px rgb(0,0,0,0.15);
+}
+.card{
+    margin-bottom: 30px;
+}
+.img area img{
+     width: 100%;
+}
+.about-text{
+    padding-top: 50px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.contact{
+    margin-top: 50px;
+}
+.socilas i{
+ padding: 8px;
+}
+.portfolio img{
+    border-radius: 40px;
+}
+.nav-item{
+ stroke-linecap: 400px;
+}
+.btn-danger{
+    background-color:#E01983 !important;
+}
+.imgarea{
+    margin-top: 50px;
+}
+h2{
+    color: #1CABE5!important;  
+}
+.container p{
+    margin-top: 16px;
+}
+.tab{
+    margin-bottom: 45px;
+}
+.footerdonate .btn{
+    margin-top: 50px;
+    
+}
+.btn-outline-dark{
+    color: #ffffff;
+    background-color: #1CABE5;
+}
+.btn-danger-text-light{
+    background-color:  #FF0000;
+}
+.danger a{
+    background-color: #FF0000 !important;
+}
+.Make-Donate {
+    background-color: #E01983;
+}
+.Product h3{
+ color: #E01983;
+
+}
+
+.fa-solid{
+    color: #1CABE5!important; 
+}
+
+.banner h5{
+    margin-left: 10px;
+}
+.ctn{
+  padding: 8px 15px;
+  background: #E01983;
+
+}
+.Social  a i{
+    background-color: #1CABE5;
+}
+
+/* footer */
+.row{
+    display: flex;
+   flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+   
+}
+.footer{
+    background-color: #2b2a2a;
+    padding: 70px 0;
+    
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+   
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #E01983;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-col .Social a i{
+    padding: 10px;
+   font-size: 25px;
+   color: #ffffff;
+   text-decoration: none;
+}
+.contact-icon a i{
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.whatsapp-icon a i{
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.contact-icon a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.whatsapp-icon a{
+    text-decoration: none;
+    color: #ffffff;  
+}
+ /* responsive css */
+ @media only screen and (max-width:767px){
+
+    .nav-item{
+        font-size: 15px;
+        padding: 0px 10px;
+        font-weight: 600;
+    }
+
+    .carousel-caption{
+        bottom: 125px;
+      
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+        padding: 10px 15px;
+        font-weight: 10px;
+    
+    }
+    .carousel-caption p{
+       font-size: 15px;
+      
+     }
+     .btn-danger{
+        padding: 6.5px;
+        height: 40px;
+        text-align: center;
+        align-items: center;
+    }
+   
+    }
+    
+
